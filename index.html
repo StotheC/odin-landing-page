@@ -3,52 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Splash Page!</title>
+    <title>Splash Page Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Logo of Some Sort</div>
-        <ul>
-            <li>Link 1</li>
-            <li>link 2</li>
-            <li>link 3</li>
-        </ul>
-    </header>
-    <main>
-        <div class="leftop">
-            <div class="topleft">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. it is a smaller font and the color is lower contrast</p>
-                <button id="signup">Sign up</button>
+    <div class="container">
+        <nav class="bx navbar">
+            <div class="header-logo">Sandrelia</div>
+            <div class="header-link">
+                <a href="#">About</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact</a>
             </div>
-            <div class="righttop">placeholder for an image</div>
-        </div>
-        <div class="rowtwo">
-            <div id="random">Some random information.</div>
-            <div class="imgtiles">
-                <img src="images/baking.png" alt="Recipies"><caption>this is some random subtext under an illustration or image</caption>
-                <img src="images/Plants.png" alt="Favorite Strains"><caption>this is some random subtext under an illustration or image</caption>
-                <img src="images/Plants.webp" alt="Plants"><caption>this is some random subtext under an illustration or image</caption>
-                <img src="images/Shoes.webp" alt="Shoes"><caption>this is some random subtext under an illustration or image</caption>
+        </nav>
+
+        <div class="bx hero">
+            <div class="hero-1 hero-cta">
+                <h1>The whole squad is here!</h1>
+                <p>This Phoenix based family is living their best life. Stay in touch with us to see what we are up to!</p>
+                <button type="button">Sign up</button>
+            </div>
+            <div class="hero-1 hero-image">
+                <img src="images/fog.webp" alt="fog" srcset="">
             </div>
         </div>
-        <div class="quotetext">
-            <p id="quote">This is an inspiring quote or a testimonial from a customer.
-                Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is it looks nice.
+
+        <div class="bx content">
+            <h2>Some random information.</h2>
+            <div class="content-info">
+                <div>
+                    <img src="images/baking.png" alt="Recipies">
+                    <p>Baking is one of my hobbies.<br>Click for recipies.</p>
+                </div>
+                <div>
+                    <img src="images/Plants.png" alt="Recipies">
+                    <p>Love a good strain. <br>Click for my favorites.</p>
+                </div>
+                <div>
+                    <img src="images/Plants.webp" alt="Recipies">
+                    <p>We love plants! <br>Click to see what we have!</p>
+                </div>
+                <div>
+                    <img src="images/Shoes.webp" alt="Recipies">
+                    <p>Shoes make the person!<br>Click to see my favorites!</p>
+                </div>
+            </div>
+        </div>
+        <div class="bx quote">
+            <p>Don't ask me, I don't know!
             </p>
-            <p id="quoteby">-Thor, God of Thunder</p>
+            <b>-Emilia, Queen of Sixes</b>
         </div>
-        <div class="ctasec">
-            <div class="ctablock">
-                <p id="ctahead">Call to action! It's time!</p>
-                <p id="ctabody">Sign up for our product by click that button over there!</p>
-                <button id="btabtn">Sign up</button>
+        <div class="bx sign-up">
+            <div class="sign-item signs-text">
+                <h3>Stay in touch!</h3>
+                <p>Sign up to hear all about our adventures!</p>
+            </div>
+            <div class="sign-item signs-button">
+                <button type="button">Sign Up</button>
             </div>
         </div>
-    </main>
-    <footer>
-        <p id="cpyrgt">Copyright the Odin Project 2021</p>
-    </footer>
+        <div class="bx footer">
+            <p>Copyright The Odin Project 2021</p>
+        </div>
+    </div>
 </body>
 </html>
